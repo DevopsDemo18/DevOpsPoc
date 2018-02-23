@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Sitecore;
-using WebApplication1.Models;
+using DevOpsDemo.Models;
 
-namespace WebApplication1.Controllers
+namespace DevOpsDemo.Controllers
 {
     public class HomeController : Controller
     {
