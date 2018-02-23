@@ -1,0 +1,11 @@
+﻿@inherits WebViewPage<EmployeeBasicModel>
+@using Sitecore.Mvc;
+@using WebApplication1.Models;
+@{
+    if (Model != null)
+    {
+        <h4>Coming From Rendering</h4>
+        <h2>Employee Name: @Html.Raw(Model.EmployeeName)</h2>
+        <h3>Salary : @Model.EmployeeSalary</h3>
+    }
+}

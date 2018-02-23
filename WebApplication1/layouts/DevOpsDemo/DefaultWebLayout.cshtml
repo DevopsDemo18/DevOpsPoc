@@ -1,0 +1,8 @@
+﻿@inherits System.Web.Mvc.WebViewPage
+@using Sitecore.Mvc;
+@{
+    <h4>Coming From WebLayout</h4>
+    @Html.Sitecore().Placeholder("Header");
+    @Html.Sitecore().Placeholder("Main");
+    @Html.Sitecore().Placeholder("Footer");
+}
