@@ -19,9 +19,10 @@ namespace DevOpsDemo.Controllers
 
         public ActionResult ShowPageDetails()
         {
+            //Changes By RRB
             EmployeeBasicModel contextEmployee = new EmployeeBasicModel();
             contextEmployee.EmployeeName = Context.Item["Name"];
-            //contextEmployee.EmployeeSalary = Context.Item["Salary"];
+            contextEmployee.EmployeeSalary = Context.Item["Salary"];
 
             return View("~/Views/Home/ShowPageDetails.cshtml", contextEmployee);
         }
