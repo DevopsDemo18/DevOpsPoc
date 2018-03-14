@@ -170,11 +170,12 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.CustomSerializationFolder.config.example" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.NewItemsOnly.example" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Dependency.config.example" />
-    <None Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
     <None Include="Properties\PublishProfiles\DevOpsDemo.pubxml" />
     <Content Include="Views\Home\ShowPageDetails.cshtml" />
+    <None Include="Properties\PublishProfiles\TargetDevOps.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
