@@ -1,0 +1,14 @@
+﻿---
+ID: "0b0c638a-1eca-4b89-a08b-18208a4b788a"
+Parent: "b21ecf78-943c-4d22-8013-3b57741d7e94"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/User Defined/poctemplate/poc section
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180315T153117Z
