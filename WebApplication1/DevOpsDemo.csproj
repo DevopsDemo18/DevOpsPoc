@@ -159,8 +159,9 @@
     <Content Include="Global.asax" />
     <Content Include="layouts\DevOpsDemo\DefaultWebLayout.cshtml" />
     <Content Include="App_Config\Include\Rainbow.config" />
-    <Content Include="App_Config\Include\Unicorn\Unicorn.zSharedSecret.config.example" />
-    <Content Include="App_Config\Include\Unicorn\Unicorn.UI.config" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.UI.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Config\Include\Unicorn\Unicorn.Remote.config.disabled" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.PowerShell.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.Dilithium.config.example" />
@@ -174,6 +175,7 @@
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
     <Content Include="App_Config\Include\zzzPSEShieldsDown\ShieldsDown.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.CustomSerializationFolder.config" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.zSharedSecret.config.example" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
     <None Include="Properties\PublishProfiles\DevOpsDemo.pubxml" />
