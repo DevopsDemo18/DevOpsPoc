@@ -1,8 +1,8 @@
 ﻿---
-ID: "0b0c638a-1eca-4b89-a08b-18208a4b788a"
-Parent: "b21ecf78-943c-4d22-8013-3b57741d7e94"
+ID: "cd3ec227-e3a4-4e75-bd6e-60bee1458f3c"
+Parent: "560510fc-a32c-4afd-beb9-fde77a37355d"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/User Defined/poctemplate/poc section
+Path: /sitecore/templates/User Defined/Template 01/Section 01
 DB: master
 Languages:
 - Language: en
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180315T153117Z
+      Value: 20180322T123704Z
