@@ -176,19 +176,15 @@
     </Content>
     <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
     <Content Include="App_Config\Include\zzzPSEShieldsDown\ShieldsDown.config" />
-    <Content Include="App_Config\Include\Unicorn\Unicorn.CustomSerializationFolder.config" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.CustomSerializationFolder.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Config\Include\Unicorn\Unicorn.zSharedSecret.config.example" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
     <None Include="Properties\PublishProfiles\DevOpsDemo.pubxml" />
     <Content Include="Views\Home\ShowPageDetails.cshtml" />
     <None Include="Properties\PublishProfiles\TargetDevOps.pubxml" />
-    <Content Include="unicorn\Templates\User Defined.yml" />
-    <Content Include="unicorn\Templates\User Defined\poctemplate.yml" />
-    <Content Include="unicorn\Templates\User Defined\poctemplate\poc section.yml" />
-    <Content Include="unicorn\Templates\User Defined\poctemplate\poc section\Address.yml" />
-    <Content Include="unicorn\Templates\User Defined\poctemplate\poc section\ID.yml" />
-    <Content Include="unicorn\Templates\User Defined\poctemplate\poc section\Name.yml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
