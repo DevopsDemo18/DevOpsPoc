@@ -1,0 +1,14 @@
+﻿---
+ID: "ea463d99-0a17-4d9c-bc3e-8df038e023bc"
+Parent: "f168c025-544f-4be8-9141-cb9e6239430d"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/User Defined/Template 04/test section
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180412T114025Z

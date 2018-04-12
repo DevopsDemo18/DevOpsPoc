@@ -287,3 +287,4 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 /DevOpsDemo.Tests
+/WebApplication1/App_Config/Include/Unicorn/Unicorn.CustomSerializationFolder.config
