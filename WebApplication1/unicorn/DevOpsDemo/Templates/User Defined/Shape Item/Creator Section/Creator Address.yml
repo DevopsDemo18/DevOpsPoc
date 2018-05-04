@@ -1,8 +1,8 @@
 ﻿---
-ID: "cb9d3426-d6f5-4d21-a7df-ea0b5139ddd4"
-Parent: "b1685958-a1ba-47dc-aa30-bdfc309f8517"
+ID: "29ec58fc-138b-4f8c-8ed9-a7fed5f40f0e"
+Parent: "7bc19b07-4789-4cbe-ac3f-2ad5c38b1fc5"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/User Defined/Employee Item/Personal Details/Designation
+Path: /sitecore/templates/User Defined/Shape Item/Creator Section/Creator Address
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
@@ -18,8 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180412T122128Z
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\Admin
+      Value: 20180504T064808Z

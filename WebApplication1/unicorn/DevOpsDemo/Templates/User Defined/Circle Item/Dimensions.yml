@@ -1,0 +1,18 @@
+﻿---
+ID: "4ab7bc31-5076-4b8c-b4cb-892e856bd09c"
+Parent: "63a21e02-0fef-4225-83d7-e446674fe68f"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/User Defined/Circle Item/Dimensions
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180504T064857Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
