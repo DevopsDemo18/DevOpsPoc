@@ -13,16 +13,18 @@ namespace DevOpsDemo.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            //view test
+            //View Test
             return View();
         }
 
         public ActionResult ShowPageDetails()
         {
-            //Changes By RRB
-            EmployeeBasicModel contextEmployee = new EmployeeBasicModel();
-            contextEmployee.EmployeeName = Context.Item["Name"];
-            contextEmployee.EmployeeSalary = Context.Item["Salary"];
+            //Changes
+            EmployeeBasicModel contextEmployee = new EmployeeBasicModel
+                                                 {
+                                                     EmployeeName = Context.Item["Name"],
+                                                     EmployeeSalary = Context.Item["Salary"]
+                                                 };
 
             return View("~/Views/Home/ShowPageDetails.cshtml", contextEmployee);
         }
