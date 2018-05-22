@@ -7,7 +7,7 @@ $ScriptPath = Split-Path $MyInvocation.MyCommand.Path
 Import-Module $ScriptPath\Unicorn.psm1
 
 # SYNC ALL CONFIGURATIONS
-Sync-Unicorn -ControlPanelUrl 'http://www-local.analogpoctarget.com/unicorn.aspx' -SharedSecret 'w9BtkcPGrSJQJrEVpTwyeLRMujPdBSe9HNnYUQfEXQ5aHjzeeHSCjGfcEZMMGpEHSvKHkH43Y6dvjfUN8Y5PYJD28uYRKVJC8zkLW2Nhra6FVuyfGMh5n5twbNewH5kR338jTPJ2c2dHPUgjsPTChrDKWbrzMjdHf9meX4DkU2fnhAzp94trdf7vjr5cjnSufMVtMH4cpXasUXNgFqVq74VJMLd4f6GQ2RBDcxzRrPPbEKPrpARHrrtXygjcCgCq'
+Sync-Unicorn -ControlPanelUrl 'http://www-local.analogpoctarget.com:8023/unicorn.aspx' -SharedSecret 'w9BtkcPGrSJQJrEVpTwyeLRMujPdBSe9HNnYUQfEXQ5aHjzeeHSCjGfcEZMMGpEHSvKHkH43Y6dvjfUN8Y5PYJD28uYRKVJC8zkLW2Nhra6FVuyfGMh5n5twbNewH5kR338jTPJ2c2dHPUgjsPTChrDKWbrzMjdHf9meX4DkU2fnhAzp94trdf7vjr5cjnSufMVtMH4cpXasUXNgFqVq74VJMLd4f6GQ2RBDcxzRrPPbEKPrpARHrrtXygjcCgCq'
 
 # SYNC SPECIFIC CONFIGURATIONS
 #Sync-Unicorn -ControlPanelUrl 'https://localhost/unicorn.aspx' -SharedSecret 'your-sharedsecret-here' -Configurations @('Test1', 'Test2')
