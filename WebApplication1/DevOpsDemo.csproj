@@ -180,8 +180,11 @@
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
     <None Include="Properties\PublishProfiles\DevOpsDemo.pubxml" />
+    <Content Include="Scripts\MicroCHAP.dll" />
     <Content Include="Views\Home\ShowPageDetails.cshtml" />
     <None Include="Properties\PublishProfiles\TargetDevOps.pubxml" />
+    <Content Include="Scripts\Unicorn.psm1" />
+    <Content Include="Scripts\UnicornRemoteSync.ps1" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
