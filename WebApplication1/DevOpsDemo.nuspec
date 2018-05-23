@@ -1,13 +1,17 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>DevOpsDemo</id>
-    <authors>SYSTEM</authors>
+    <id>DevOpsDemo.$suffix$</id>
+    <title>$title$</title>
+    <version>$version$</version>
+    <authors>$myname$</authors>
     <owners>SYSTEM</owners>
 	<tags>OctopusDeploy</tags>
     <licenseUrl>http://example.com</licenseUrl>
     <projectUrl>http://example.com</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A sample project</description>
+    <releaseNotes>$releasenotes$</releaseNotes>
   </metadata>
   <files>
   <file src="unicorn\**\*.*" target="unicorn" />
