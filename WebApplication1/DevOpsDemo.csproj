@@ -177,6 +177,7 @@
     <Content Include="App_Config\Include\zzzPSEShieldsDown\ShieldsDown.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.zSharedSecret.config.example" />
     <None Include="App_Config\Include\Unicorn\Unicorn.CustomSerializationFolder.config" />
+    <Content Include="DevOpsDemo.nuspec" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
     <None Include="Properties\PublishProfiles\DevOpsDemo.pubxml" />
