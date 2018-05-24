@@ -177,7 +177,6 @@
     <Content Include="App_Config\Include\zzzPSEShieldsDown\ShieldsDown.config" />
     <Content Include="App_Config\Include\Unicorn\Unicorn.zSharedSecret.config.example" />
     <None Include="App_Config\Include\Unicorn\Unicorn.CustomSerializationFolder.config" />
-    <Content Include="DevOpsDemo.nuspec" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
     <None Include="Properties\PublishProfiles\DevOpsDemo.pubxml" />
@@ -186,6 +185,14 @@
     <None Include="Properties\PublishProfiles\TargetDevOps.pubxml" />
     <Content Include="Scripts\Unicorn.psm1" />
     <Content Include="Scripts\UnicornRemoteSync.ps1" />
+    <Content Include="unicorn\DevOpsDemo\Templates\User Defined.yml" />
+    <Content Include="unicorn\DevOpsDemo\Templates\User Defined\Circle Item.yml" />
+    <Content Include="unicorn\DevOpsDemo\Templates\User Defined\Circle Item\Dimensions.yml" />
+    <Content Include="unicorn\DevOpsDemo\Templates\User Defined\Circle Item\Dimensions\Radius.yml" />
+    <Content Include="unicorn\DevOpsDemo\Templates\User Defined\Shape Item.yml" />
+    <Content Include="unicorn\DevOpsDemo\Templates\User Defined\Shape Item\Creator Section.yml" />
+    <Content Include="unicorn\DevOpsDemo\Templates\User Defined\Shape Item\Creator Section\Creator Address.yml" />
+    <Content Include="unicorn\DevOpsDemo\Templates\User Defined\Shape Item\Creator Section\Creator Name.yml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
